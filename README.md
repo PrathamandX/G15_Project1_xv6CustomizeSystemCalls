@@ -7,7 +7,7 @@ The project is centered on **xv6-riscv**, a compact Unix-like teaching operating
 
 ## Course and Team Information
 
-- **Course:** Operating Systems Lab (NSCS210 / CSC211)  
+- **Course:** Operating Systems Lab (NSCS210)  
 - **Instructor:** Jaishree Mayank Mam
 
 **Team Members**

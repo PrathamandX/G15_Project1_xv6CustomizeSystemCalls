@@ -151,25 +151,6 @@ These tests are used to validate each major extension area. Together, they check
 
 ---
 
-## Limitations Noted in the Report
-
-- **Simplified priority scheduling**  
-  The scheduler extension does not include advanced fairness controls such as starvation prevention or dynamic priority balancing.
-
-- **Restricted shared memory model**  
-  Shared memory support uses fixed keys and a limited segment model, making it less flexible than full production implementations.
-
-- **Basic thread model**  
-  Thread support is intentionally simplified for educational clarity rather than feature completeness.
-
-- **Static synchronization object handling**  
-  Mutexes and semaphores are managed through fixed IDs, not through dynamically allocated synchronization objects.
-
-- **Non-deterministic concurrent output**  
-  In parallel execution tests, output ordering can vary and appear interleaved, which is expected in concurrent systems.
-
----
-
 ## Conclusion
 
 This project successfully extends xv6-riscv across five major operating-system domains: process control, IPC, scheduling, threading, and synchronization. Beyond implementing new APIs, the work demonstrates how kernel modifications, syscall interfaces, and user-space validation must fit together as one coherent system. Overall, the project provides meaningful practical insight into system calls, concurrency control, process coordination, and kernel-level resource management.
